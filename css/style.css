@@ -1,0 +1,357 @@
+/*----------------Top Nav_Bar----------------*/
+a{
+    text-decoration: none;
+}
+#top_section{
+    background: linear-gradient(45deg,#8ac6d1,#00a8cc,#fae3d9,#ffb6b9);
+
+}
+.container-fluid{
+    padding: 0%;
+}
+.header{
+    margin: 0 200px 0 200px;
+    z-index: 1;
+
+}
+.information_top{
+    margin: 0 200px 0 200px;
+    z-index: 1;
+
+}
+.top_head{
+    color: white;
+    margin-top: 120px;
+}
+.top_how{
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: #084177;
+}
+.top_detail{
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+.brand-name{
+    font-family: Archivo Narrow;
+    font-size: 30px;
+}
+.nav_lst-itm{
+    font-family: Ubuntu;
+}
+#eagleimg{
+    width: 380px;
+    padding-top: 80px;
+}
+/*----------------Services----------------*/
+.Swhat{
+    text-align: center;
+}
+.Sanswer{
+    text-align: center;
+    padding: 0 370px;
+}
+.card-title,.card-text{
+    text-align: center;
+}
+.card-srv{
+    height: 200px;
+}
+.ct1{
+    font-family: Archivo Narrow;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+/*My code*/
+.chl, .ch2{
+    height: 20rem;
+}
+.card-img-top{
+    height: 167px;
+    width: 253px;
+}
+.chl:hover{
+    transform: scale(1.04);
+    cursor:pointer;
+    background: linear-gradient(45deg,#ffd5e5 ,#ffffdd);
+    border: 1px solid #fffb97;
+
+}
+.ch2:hover{
+    transform: scale(1.04);
+    cursor:pointer;
+    background: linear-gradient(45deg,#ffd5e5 ,#ffffdd);
+    border: 1px solid #fffb97
+}
+.imgaing{
+    height: 150px;
+    width: 215px;
+    margin-bottom: 10px;
+}
+
+
+/*----------------Languages----------------*/
+#languages{
+/*    background-color: rgb(83, 245, 33);*/
+    background: linear-gradient(45deg,#8ac6d1,#00a8cc,#fae3d9,#ffb6b9);
+
+}
+.Lwhat{
+    text-align: center;
+}
+.Lanswer{
+    text-align: center;
+    padding: 0 390px;
+    color: white;
+}
+.ct2{
+    font-family: Archivo Narrow;
+    color: rgba(0, 0, 0, 0.637);
+}
+.chl{
+    height: 232px;
+}
+/*----------------Projects----------------*/
+.Pwhat{
+    text-align: center;
+}
+.Panswer{
+    text-align: center;
+    padding: 0 390px;
+    
+}
+.adj-carou{
+    margin: 0 200px 0 200px;
+}
+.fcimg{
+    height: 350px;
+    border-radius: 50px 0 50px 0;
+}
+.Pcard{
+    border: none;
+    margin-top: 100px;
+}
+.fcdiv{
+    border-radius: 50px 0 50px 0;
+    color: rgb(123, 255, 82);
+}
+
+/*----------------Footer----------------*/
+
+.main-footer{
+    padding: 20px 0;
+    
+}
+.thumbnail-widget{	
+    padding-left: 0;	
+    list-style: none;
+}
+
+.footer-copyright {	
+    /*background: rgba(54, 233, 0, 0.863);	*/
+    padding: 5px 0;
+}
+
+.footer-copyright p {	
+    color: black;	
+    margin: 2px 0 0;
+}
+
+#contact_icon{
+    width: 32px;
+    margin-bottom: 5px;
+}
+
+
+
+
+/*==================== 
+	Widgets 
+====================== */
+.widget{	
+    padding: 20px;	
+    margin-bottom: 40px;
+}
+
+.widget.no-box{	
+    padding: 0;	
+    background-color: transparent;	
+    margin-bottom: 40px;
+    box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    -ms-box-shadow: none; 
+    -o-box-shadow: none;
+}
+
+.widget li a{	
+    color: #000000;
+}
+.widget li a:hover{	
+    color: #4b92dc;
+}
+.widget-title {
+    margin-bottom: 20px;
+}
+.widget-title span {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    display: block; 
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;    
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget .badge{	
+    float: right;	
+    background: #7f7f7f;
+}
+
+
+.typo-light h5,.typo-light p{	
+    color: black;
+}
+
+ul.social-footer2 {	
+    margin: 0;
+    padding: 0;	
+    width: auto;
+}
+
+.btn-crt:hover, .btn-crt:focus, .btn-crt.active {
+    background: #4b92dc;
+    color: #fff;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 250ms ease-in-out 0s;
+    -moz-transition: all 250ms ease-in-out 0s;
+    -ms-transition: all 250ms ease-in-out 0s;
+    -o-transition: all 250ms ease-in-out 0s;
+    transition: all 250ms ease-in-out 0s;
+
+}
+.thumb-content{
+    color: #000;
+    font-size: 20px;
+}
+#contact_icon{
+    cursor: pointer;
+}
+#linearGradient{
+    background: linear-gradient(45deg,#8ac6d1,#00a8cc,#fae3d9,#ffb6b9);
+   z-index: 1
+}
+#contact_icon:hover{
+    transform: scale(1.4);
+}
+
+/*---------------- Responsive for Mobile ----------------*/
+
+@media (max-width: 480px){
+    .header{
+        margin: 0px;
+    }
+    .information_top{
+        margin: 0px;
+    }
+    #eagleimg{
+        margin-left: 70px;
+        width: 236px;
+        padding-top: 20px;
+    }
+    .top_head{
+        color: white;
+        margin-top: 20px;
+    }
+    .Sanswer{
+        text-align: center;
+        padding: 15px;
+    }
+    .card-srv{
+        margin-bottom: 30px;
+    }
+    .Lanswer{
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
+    .chl{
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    .Panswer{
+        text-align: center;
+        padding: 15px;
+    }
+    .adj-carou{
+        margin: 0px;
+    }
+    .Pcard{
+        border: none;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav_lst-itm{
+        font-family: Ubuntu;
+        text-align: center;
+    }
+    .imgaing{
+        width: 300px;
+    }
+}
+
+/*---------------- Responsive for ipad ----------------*/
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    .header{
+        margin: 0px;
+    }
+    .information_top{
+        margin: 0px;
+    }
+    #eagleimg{
+        margin-left: 52px;
+        margin-top: 40px;
+        width: 280px;
+    }
+    .top_head{
+        color: white;
+        font-size: 1.8rem;
+    }
+    .top_how{
+        font-size: 1.8rem;
+    }
+    .Sanswer{
+        text-align: center;
+        padding: 0px 35px;
+    }
+    .srv-card{
+        margin-bottom: 20px;
+    }
+    .Lanswer{
+        text-align: center;
+        padding: 0px 35px;
+    }
+    .lang-crd{
+        margin-bottom: 20px;
+    }
+    .Panswer{
+        text-align: center;
+        padding: 0px 35px;
+    }
+    .adj-carou{
+        margin: 0px;
+    }
+}
